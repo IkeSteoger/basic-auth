@@ -9,7 +9,4 @@ const sequelizeDatabase = new Sequelize(DATABASE_URL);
 
 const userModel = users(sequelizeDatabase, DataTypes);
 
-module.exports = {
-  sequelizeDatabase,
-  userModel,
-};
+module.exports = { sequelizeDatabase, userModel };

@@ -2,7 +2,7 @@
 
 // Create a Sequelize model
 module.exports = (sequelizeDatabase, DataTypes) => {
-  return sequelizeDatabase.define('users', {
+  return sequelizeDatabase.define('User', {
     username: {
       type: DataTypes.STRING,
       allowNull: false,
