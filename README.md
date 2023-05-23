@@ -27,7 +27,7 @@ See the `.env.sample`
 
 #### How to initialize/run your application (where applicable)
 
-Clone repo, `npm i`, then run `nodemon` in the terminal
+Clone repo, `npm i`, set up DB with `npm run init:config` & then `npm run db:create` then run `nodemon` in the terminal
 
 #### Routes
 
